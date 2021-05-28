@@ -1,0 +1,75 @@
+.download-button {
+    margin: 5% 3% 5% 3%;
+}
+
+
+.container-fluid {
+    padding: 3% 15% 7%;
+    height: fit-content;
+}
+
+#title {
+    height: fit-content;
+    margin-bottom: 160px;
+}
+
+
+
+
+.title-image {
+    
+    position: absolute;
+}
+
+.textonly {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#plans {
+    padding: 12px;
+}
+
+.pricing-column {
+    align-items: center;
+}
+.card {
+    margin: 5px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-end-end-radius: 3; 
+}
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #9b588a;
+    color: white;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    
+}
+
+
+
+@media (max-width:1000px) {
+    #title {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .title-image {
+        position: inherit;
+        width: 80%;
+    }
+
+    
+}
