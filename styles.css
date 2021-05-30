@@ -10,7 +10,9 @@
 
 #title {
     height: fit-content;
-    margin-bottom: 160px;
+    /* margin-bottom: 1px; */
+    
+    
 }
 
 
@@ -24,6 +26,8 @@
 .textonly {
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 20px;
+    color: rgb(19, 18, 18);
 }
 
 #plans {
@@ -32,20 +36,26 @@
 
 .pricing-column {
     align-items: center;
+    
 }
 .card {
     margin: 5px;
     margin-left: 20px;
     text-align: center;
     font-size: 1.2rem;
-    border-end-end-radius: 3; 
+    
+    border-color: rgb(22, 21, 21);
 }
 
 #testimonials {
     
     text-align: center;
-    background-color: #9b588a;
-    color: white;
+    background-color: #111011;
+    color: rgb(128, 124, 124);
+    height: 40rem;
+    padding-left: 0%;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 .carousel-item {
@@ -58,7 +68,12 @@
     
 }
 
-
+.footer {
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    padding:1%;
+}
 
 @media (max-width:1000px) {
     #title {
@@ -69,6 +84,15 @@
     .title-image {
         position: inherit;
         width: 80%;
+    }
+
+    #testimonials {
+        height: 25rem;
+    }
+    .footer {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 0%;
     }
 
     
